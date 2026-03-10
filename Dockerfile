@@ -6,7 +6,7 @@ COPY vite.config.ts ./
 COPY postcss.config.mjs ./
 COPY src ./src
 COPY index.html ./
-RUN npm ci
+RUN npm install
 RUN npm run build
 
 # Étape 2: Production avec Nginx
