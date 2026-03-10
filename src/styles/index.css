@@ -1,0 +1,104 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* ============================================
+   COULEUR DE FOND GLOBALE
+   Fix : Évite la bande blanche lors du scroll horizontal
+   ============================================ */
+
+body {
+  background-color: #F9FAFB; /* Gris clair uniforme */
+  min-height: 100vh;
+}
+
+/* ============================================
+   COMPORTEMENT DE SCROLL GLOBAL
+   ============================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================================
+   SCROLLBARS PERSONNALISÉES (Design Moderne)
+   ============================================ */
+
+/* Webkit (Chrome, Edge, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(209, 213, 219); /* #D1D5DB - Gris moyen */
+  border-radius: 9999px; /* Coins complètement arrondis */
+  border: 2px solid transparent;
+  background-clip: content-box; /* Crée de l'espace autour du pouce */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(99, 102, 241); /* #6366F1 - Indigo au survol */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(209, 213, 219) transparent; /* Pouce gris, piste transparente */
+}
+
+/* ============================================
+   SCROLLBARS DANS LES ZONES SPÉCIFIQUES
+   ============================================ */
+
+/* Scrollbars dans les tableaux (plus discrètes) */
+.overflow-x-auto::-webkit-scrollbar,
+.overflow-y-auto::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Scrollbars dans les modals (cohérence visuelle) */
+[role="dialog"]::-webkit-scrollbar {
+  width: 6px;
+}
+
+[role="dialog"]::-webkit-scrollbar-thumb {
+  background-color: rgb(209, 213, 219);
+  border-radius: 9999px;
+}
+
+[role="dialog"]::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(156, 163, 175); /* #9CA3AF - Gris foncé */
+}
+
+/* ============================================
+   SCROLLBARS MASQUÉES (Pour carousels, etc.)
+   ============================================ */
+
+/* Utility class pour masquer les scrollbars tout en gardant le scroll */
+.scrollbar-hidden {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE et Edge */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* ============================================
+   ANIMATIONS DE SCROLL
+   ============================================ */
+
+/* Animation fluide lors du scroll */
+@media (prefers-reduced-motion: no-preference) {
+  html,
+  .overflow-x-auto,
+  .overflow-y-auto {
+    scroll-behavior: smooth;
+  }
+}

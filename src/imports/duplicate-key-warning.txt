@@ -1,0 +1,114 @@
+3code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:28 Warning: Encountered two children with the same key, `null`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/svg
+    at Surface (recharts.js?v=50f22b94:6048:25)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at ChartLayoutContextProvider2 (recharts.js?v=50f22b94:25504:28)
+    at CategoricalChartWrapper2 (recharts.js?v=50f22b94:30786:7)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/CategoricalChart2
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at recharts.js?v=50f22b94:9262:21
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at Dashboard (Dashboard.tsx:47:29)
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at RenderedRoute (react-router.js?v=11f32b94:6350:26)
+    at Outlet (react-router.js?v=11f32b94:7138:26)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at MainLayout (MainLayout.tsx:17:28)
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at ProtectedRoute (ProtectedRoute.tsx:19:34)
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at RenderedRoute (react-router.js?v=11f32b94:6350:26)
+    at Routes (react-router.js?v=11f32b94:7217:3)
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at AuthProvider (AuthContext.tsx:41:32)
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at Router (react-router.js?v=11f32b94:7147:13)
+    at BrowserRouter (react-router.js?v=11f32b94:10358:3)
+    at App (App.tsx:40:35)
+    at o$ (code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:55:4461)
+    at O (code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:570:13314)
+    at rr (code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:624:13959)
+    at b7 (code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:641:10109)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at o2 (code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:55:14021)
+    at T3 (code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:631:233330)
+    at yk (code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:631:249134)
+    at ih (code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:40:136003)
+    at hi (code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:434:8433)
+(anonymous) @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:28
+r @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:69
+error @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:28
+eN @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:77
+eA @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:77
+E @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+_ @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+b @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+_t @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+_s @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+_4 @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+ep @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+SX @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+Sz @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+Sj @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+SS @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:89
+(anonymous) @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:3
+V @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:113
+B @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:113
+eo @ code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:113Understand this error
+code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:28 Warning: Encountered two children with the same key, `null`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Component Stack
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at ChartLayoutContextProvider2 (recharts.js?v=50f22b94:25504:28)
+    at CategoricalChartWrapper2 (recharts.js?v=50f22b94:30786:7)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/CategoricalChart2
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at recharts.js?v=50f22b94:9262:21
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at Dashboard (Dashboard.tsx:47:29)
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at RenderedRoute (react-router.js?v=11f32b94:6350:26)
+    at Outlet (react-router.js?v=11f32b94:7138:26)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframepreview.figma.site/div
+    at code_components_preview_iframe-e6ffa6e7eaca0ef3.min.js.br:290:12506
+    at FGCmp (fginspector:3:55)
+    at 599554f9-4c4d-4140-a280-84714d546a50-v2-figmaiframeprevi
