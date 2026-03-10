@@ -5,5 +5,4 @@ dist
 .gitignore
 README.md
 Dockerfile
-nginx.conf
 *.log
